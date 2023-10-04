@@ -115,4 +115,37 @@ p{
 #subscribe form label, #subscribe form input{
     display: block;
     margin: 0 auto;
+
+}
+
+@media only screen and (min-width: 600px){
+
+    header nav span {
+        float: left;
+    }
+
+    header nav ul{
+        float: right;
+        margin: 0;
+    }
+
+    header nav ul li{
+        display: inline-block;
+    }
+
+    header nav {
+        overflow: hidden;
+    }
+
+    main section{
+        overflow: hidden;
+        max-width: 1260;
+        width: 100%;
+        margin: 0 auto; 
+    }
+
+    main article{
+        float: left;
+        margin: 10px;
+    }
 }
